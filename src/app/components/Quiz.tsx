@@ -116,7 +116,7 @@ export const Quiz = () => {
   }
 
   return (
-    <div className="w-full max-w-2xl">
+    <div className="w-full max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto">
       <div className="mb-4 flex items-center justify-between px-2">
         <div className="flex flex-col">
           <span className="text-amber-500 font-black text-xs uppercase tracking-widest">Poziom upojenia</span>
