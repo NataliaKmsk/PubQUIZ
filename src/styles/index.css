@@ -1,0 +1,9 @@
+/* W Tailwind v4 to jest jedyna linia ładująca framework */
+@import "tailwindcss";
+
+/* Twoje importy */
+@import "./fonts.css";
+@import "./theme.css";
+
+/* To musi być na końcu lub po "tailwindcss", żeby @layer base zadziałało */
+@import "./base.css";
